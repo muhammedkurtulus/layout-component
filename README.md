@@ -1,6 +1,6 @@
 # Next.js - TypeScript
 
-A boilerplate template for application layout.
+A boilerplate template for layout components with Bootstrap.
 
 ## Built with
 
