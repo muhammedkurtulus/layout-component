@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/">
           Layout Components Template &#128526;
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,14 +21,14 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <Link className="nav-link active" aria-current="page" href="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/test">
+              <Link className="nav-link" href="/test">
                 Test
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a

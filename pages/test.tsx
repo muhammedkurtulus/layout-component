@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Test = () => {
   return (
     <main className="d-flex flex-column min-vh-100">
@@ -8,9 +9,9 @@ const Test = () => {
             Our layout component is visible on all the pages.
           </p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a className="btn btn-primary" href="/" role="button">
+            <Link className="btn btn-primary" href="/" role="button">
               Click to Home Page
-            </a>
+            </Link>
           </div>
         </div>
       </div>

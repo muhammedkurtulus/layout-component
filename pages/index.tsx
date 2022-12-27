@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -15,9 +16,9 @@ const HomePage = () => {
             A boilerplate template for application layout.
           </p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a className="btn btn-primary" href="/test" role="button">
+            <Link className="btn btn-primary" href="/test" role="button">
               Click to Test Page
-            </a>
+            </Link>
           </div>
         </div>
       </div>
